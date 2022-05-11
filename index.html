@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <title>Головна</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="touch-icon" href="load/img/game-console.png">
+    <link rel="shortcut icon" type="image/x-icon" href="load/img/music.ico">
+    <link rel="stylesheet" href="load/css/supercontroller.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="load/css/fontawesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="load/js/supercontroller.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="supercontroller_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="musicua@ukr.com">streetmotors@ukr.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+3800000000000">+3801526308</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                Street Motors
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#supercontroller_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="supercontroller_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Купити</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Продаж</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Про нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Вхід</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="modal fade bg-white" id="supercontroller_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Пошук ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="supercontroller-carusel-roll" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#supercontroller-carusel-roll" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#supercontroller-carusel-roll" data-bs-slide-to="1"></li>
+            <li data-bs-target="#supercontroller-carusel-roll" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="https://focus.ua/static/storage/thumbs/1088x/3/fd/1942359f-a36cf30c916cb7e5af20c7ed1de57fd3.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>Street Motors</b></h1>
+                                <h3 class="h2">Купуйте офіційно. Продавайте без обмежень</h3>
+                                <p>
+                                    Ми завжди чекаємо на вас. Отож, давайте покупайте!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Ми завжди думаємо про вас!</h1>
+                                <p>
+                                    Ми же Street Motors!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipnLkptN5cB41sKOglIMd5RF0D9qQT-b2zQ&usqp=CAU" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Ми надаємо надійний вибір </h1>
+                                <h3 class="h2"> Купуйте!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#supercontroller-carusel-roll" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#supercontroller-carusel-roll" role="button" data-bs-slide="next">
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#supercontroller-carusel-roll" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <section class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Переваги</h1>
+                <p>
+                    Наші переваги
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="img/1.png" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Пошук автомобілів</h5>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="img/2.png" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Немає часу на продаж авто</h2>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="img/3.png" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Пошук найкращого автомобіля</h2>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark" id="supercontroller-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Street Motors</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Київ, вул. Саксаганського, 35
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:+38015200630800">+3801526308</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="supercontroller@ukr.com">streetmotors@ukr.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Автомобілі</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Вживані авто</a></li>
+                        <li><a class="text-decoration-none" href="#">Нові авто</a></li>
+                        <li><a class="text-decoration-none" href="#">Електромобілі</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Інформація</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Головна</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Купити</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Продаж</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Контакти</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Всі права захищені &copy; 2022 Street Motorss
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
